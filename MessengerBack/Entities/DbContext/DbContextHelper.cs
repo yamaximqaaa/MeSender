@@ -1,4 +1,4 @@
-using MessengerBack.ViewModels;
+using MessengerBack.Models.User;
 
 namespace MessengerBack.Entities.DbContext;
 
@@ -31,29 +31,24 @@ public static class DbContextHelper
 
     #region userMethods
 
-    public static List<UserViewModel> GetUsersViewModel()
+    public static List<UserView> GetUsersViewModel()
     {
-        return _users.Select(x => new UserViewModel()
-        {
-            Name = x.Name,
-            Login = x.Login
-        }).ToList();
-
+        return _users.Select(x => (UserView)x).ToList();
     }
 
-    public static UserViewModel? GetUserViewModelById(Guid id)
+    public static UserView? GetUserViewModelById(Guid id)
     {
         return _users.FirstOrDefault((x) => x.Id == id);
     }
 
-    public static Guid AddUser(UserViewModel userView)
+    public static Guid AddUser(UserView userView)
     {
         var user = userView.GetNewUserFromViewModel();
         _users.Add(user);
         return user.Id;
     }
 
-    public static UserViewModel? UpdateUser(Guid id, UserViewModel userView)
+    public static UserView? UpdateUser(Guid id, UserView userView)
     {
         var userToUpdateIndex = _users
             .Select(((x, i) => new {user = x, index = i}))
@@ -67,6 +62,16 @@ public static class DbContextHelper
         return _users.Remove(_users.FirstOrDefault(x => x.Id == id)!);
     }
 
+    public static UserView? UpdateUserProp(Guid id, string propName, string propValue)
+    {
+        var userToUpdateIndex = _users
+            .Select(((x, i) => new {user = x, index = i}))
+            .FirstOrDefault(x => x.user.Id == id);
+        if (userToUpdateIndex == null) return null;
+        return _users[userToUpdateIndex.index].UpdateUserProp(propName, propValue);
+    }
+    
     #endregion
+
     
 }
