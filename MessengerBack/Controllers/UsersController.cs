@@ -49,7 +49,7 @@ public class UsersController : ControllerBase
     #endregion
     
     #region Update
-    // TODO: Add patch method
+    
     [HttpPut]
     [Route("{id}")]
     public ActionResult<UserView> UpdateUser([FromRoute] Guid id, [FromBody] UserView userView)
