@@ -1,0 +1,84 @@
+<changelist name="Changes" date="1685043965469" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/bin/Debug/net6.0/MessengerBack.dll" />
+    <option name="AFTER_PATH" value="MessengerBack/bin/Debug/net6.0/MessengerBack.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/obj/Debug/net6.0/ref/MessengerBack.dll" />
+    <option name="AFTER_PATH" value="MessengerBack/obj/Debug/net6.0/ref/MessengerBack.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/obj/Debug/net6.0/refint/MessengerBack.dll" />
+    <option name="AFTER_PATH" value="MessengerBack/obj/Debug/net6.0/refint/MessengerBack.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.dll" />
+    <option name="AFTER_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/bin/Debug/net6.0/MessengerBack.dll" />
+    <option name="AFTER_PATH" value="Test/bin/Debug/net6.0/MessengerBack.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/bin/Debug/net6.0/MessengerBack.pdb" />
+    <option name="AFTER_PATH" value="MessengerBack/bin/Debug/net6.0/MessengerBack.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.pdb" />
+    <option name="AFTER_PATH" value="MessengerBack/obj/Debug/net6.0/MessengerBack.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/bin/Debug/net6.0/MessengerBack.pdb" />
+    <option name="AFTER_PATH" value="Test/bin/Debug/net6.0/MessengerBack.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/MessengerBack2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/bin/Debug/net6.0/Test.dll" />
+    <option name="AFTER_PATH" value="Test/bin/Debug/net6.0/Test.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/net6.0/ref/Test.dll" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/net6.0/ref/Test.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/net6.0/refint/Test.dll" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/net6.0/refint/Test.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/net6.0/Test.dll" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/net6.0/Test.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/bin/Debug/net6.0/Test.pdb" />
+    <option name="AFTER_PATH" value="Test/bin/Debug/net6.0/Test.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/net6.0/Test.pdb" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/net6.0/Test.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/shelf/Changes/Test1.pdb" />
+  </binary>
+</changelist>

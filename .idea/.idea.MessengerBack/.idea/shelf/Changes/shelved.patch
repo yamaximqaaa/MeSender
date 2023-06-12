@@ -1,0 +1,18 @@
+Index: MessengerBack/obj/staticwebassets.pack.sentinel
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n2.0\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MessengerBack/obj/staticwebassets.pack.sentinel b/MessengerBack/obj/staticwebassets.pack.sentinel
+--- a/MessengerBack/obj/staticwebassets.pack.sentinel	(revision 0f984b00124212ec1177901cb67283dde4e73eef)
++++ b/MessengerBack/obj/staticwebassets.pack.sentinel	(date 1685041772682)
+@@ -11,3 +11,7 @@
+ 2.0
+ 2.0
+ 2.0
++2.0
++2.0
++2.0
++2.0
