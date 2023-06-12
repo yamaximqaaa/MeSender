@@ -33,7 +33,19 @@ public class UsersController : ControllerBase
         if (user == null) return BadRequest(new { Error = "Invalid user id" });
         return Ok(user);
     }
-    
+
+    [HttpPost]
+    [Route("{id}/{propName}")]
+    public ActionResult<string> GetUserProp(Guid id, string propName)
+    {
+        var user = DbContextHelper.GetUserViewModelById(id);
+        if (user == null) return BadRequest("No such user");
+        var userProp = user.GetType().GetProperty(propName);
+        if (userProp == null) return BadRequest("Prop not found");
+        var propValue = userProp.GetValue(user);
+        return Ok(propValue);
+    }
+
     #endregion
     
     #region Update

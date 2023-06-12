@@ -23,10 +23,15 @@ public class User
         return this;
     }
 
-    public static implicit operator UserView(User user) => new UserView()
+    public static implicit operator UserView?(User? user)
     {
-        Id = user.Id,
-        Login = user.Login,
-        Name = user.Name
-    };
+        if (user == null) return null;
+        return new UserView()
+        {
+            Id = user.Id,
+            Login = user.Login,
+            Name = user.Name
+        };
+    }
+    
 }
