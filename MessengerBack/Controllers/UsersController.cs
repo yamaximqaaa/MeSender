@@ -61,7 +61,7 @@ public class UsersController : ControllerBase
 
     [HttpPatch]
     [Route("{id}")]
-    public ActionResult<UserView> UpdateUserProp(Guid id, [FromQuery] string propName, [FromQuery] string propValue)
+    public ActionResult<UserView> UpdateUserProp(Guid id, [FromQuery] string propName, [FromQuery] string propValue)        // Method for update prop
     {
         var user = DbContextHelper.UpdateUserProp(id, propName, propValue);
         if (user == null) return BadRequest("Something went wrong during updating user property");   // TODO: Dif exceptions to incorrect id, prop name and prop value
