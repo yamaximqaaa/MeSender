@@ -33,11 +33,23 @@ public class UsersController : ControllerBase
         if (user == null) return BadRequest(new { Error = "Invalid user id" });
         return Ok(user);
     }
-    
+
+    [HttpPost]
+    [Route("{id}/{propName}")]
+    public ActionResult<string> GetUserProp(Guid id, string propName)
+    {
+        var user = DbContextHelper.GetUserViewModelById(id);
+        if (user == null) return BadRequest("No such user");
+        var userProp = user.GetType().GetProperty(propName);
+        if (userProp == null) return BadRequest("Prop not found");
+        var propValue = userProp.GetValue(user);
+        return Ok(propValue);
+    }
+
     #endregion
     
     #region Update
-    // TODO: Add patch method
+    
     [HttpPut]
     [Route("{id}")]
     public ActionResult<UserView> UpdateUser([FromRoute] Guid id, [FromBody] UserView userView)
@@ -49,7 +61,7 @@ public class UsersController : ControllerBase
 
     [HttpPatch]
     [Route("{id}")]
-    public ActionResult<UserView> UpdateUserProp(Guid id, [FromQuery] string propName, [FromQuery] string propValue)
+    public ActionResult<UserView> UpdateUserProp(Guid id, [FromQuery] string propName, [FromQuery] string propValue)        // Method for update prop
     {
         var user = DbContextHelper.UpdateUserProp(id, propName, propValue);
         if (user == null) return BadRequest("Something went wrong during updating user property");   // TODO: Dif exceptions to incorrect id, prop name and prop value
