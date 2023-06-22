@@ -4,67 +4,29 @@
     <projectFile profileName="MessengerBack">MessengerBack/MessengerBack.csproj</projectFile>
     <projectFile>Test/Test.csproj</projectFile>
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80699f3f-a6f4-4198-b747-427c3f106998" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MessengerBack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessengerBack.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.sln" afterDir="false" />
+    <list default="true" id="f49061d6-1d9f-425a-a548-c8eebbc349bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/maxlukashevych/Learn/Messenger/MessengerBack/MessengerBack/Controllers/UsersController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/maxlukashevych/Learn/Messenger/MessengerBack/MessengerBack/Entities/DbContext/DbContextHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/maxlukashevych/Learn/Messenger/MessengerBack/MessengerBack/Entities/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MessengerBack/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/maxlukashevych/Learn/Messenger/MessengerBack/Test/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Test/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ff32d9e6a8ae52479379f35545f9a152fde5adb58a20dc4526c1c59bafe3/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46f317cf5ad976b6ca6838e27a48b4d7f9733922de0b5b22cf294ee932dfc8/Select.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectId" id="2Q7R5wkseeDZj8qhvAMOyO2eddD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2RZN15MReWKg1rlvS8G3cQF0aZx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/maxlukashevych/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
-      "/Users/maxlukashevych/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
-      "/Users/maxlukashevych/.local/share/Symbols/src"
-    ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MessengerBack">
+  <component name="RunManager" selected=".NET Project.Test">
     <configuration name="Test" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -102,115 +64,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80699f3f-a6f4-4198-b747-427c3f106998" name="Changes" comment="" />
-      <created>1684702453819</created>
+      <changelist id="f49061d6-1d9f-425a-a548-c8eebbc349bf" name="Changes" comment="" />
+      <created>1687453425238</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684702453819</updated>
-      <workItem from="1684702455627" duration="1880000" />
-      <workItem from="1684747781639" duration="8591000" />
-      <workItem from="1684770067076" duration="2446000" />
-      <workItem from="1685032957230" duration="7220000" />
+      <updated>1687453425238</updated>
+      <workItem from="1687453426321" duration="212000" />
     </task>
-    <task id="LOCAL-00001" summary="Create proj with base setup">
-      <created>1684771895458</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684771895458</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add patch method for user using reflection">
-      <created>1685042245979</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685042245979</updated>
-    </task>
-    <task id="LOCAL-00003" summary="gitignoreFile">
-      <created>1685042778207</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685042778207</updated>
-    </task>
-    <task id="LOCAL-00004" summary="version vsc">
-      <created>1685043020192</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1685043020192</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/dev" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Create proj with base setup" />
-    <MESSAGE value="add patch method for user using reflection" />
-    <MESSAGE value="gitignoreFile" />
-    <MESSAGE value="version vsc" />
-    <option name="LAST_COMMIT_MESSAGE" value="version vsc" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Test/Program.cs</url>
-          <line>13</line>
-          <properties documentPath="$PROJECT_DIR$/Test/Program.cs" initialLine="13" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="211" />
-            </startOffsets>
-            <endOffsets>
-              <option value="231" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
