@@ -1,20 +1,21 @@
+using MessengerBack.Entities.DbContext.User;
 using MessengerBack.Models.User;
 
-namespace MessengerBack.Entities.DbContext;
+namespace MessengerBack.Entities.DbContext.User;
 
-public static class DbContextHelper
+internal class DbContextUserHelper : IDbContextUserHelper
 {
     #region Lists
 
-    private static List<User> _users = new List<User>()
+    private List<Entities.User> _users = new List<Entities.User>()
     {
-        new User()
+        new Entities.User()
         {
             Id = Guid.NewGuid(),
             Login = "user1",
             Name = "User1"
         },
-        new User()
+        new Entities.User()
         {
             Id = Guid.NewGuid(),
             Login = "user2",
@@ -22,33 +23,29 @@ public static class DbContextHelper
         },
     };
 
-    private static List<Conversation> _conversations = new List<Conversation>();
-    private static List<UserConversation> _userConversations = new List<UserConversation>();
-    private static List<Message> _messages = new List<Message>();
-
     #endregion
     
 
     #region userMethods
 
-    public static List<UserView> GetUsersViewModel()
+    public List<UserView> GetUsersViewModel()
     {
         return _users.Select(x => (UserView)x).ToList();
     }
 
-    public static UserView? GetUserViewModelById(Guid id)
+    public UserView? GetUserViewModelById(Guid id)
     {
         return _users.FirstOrDefault((x) => x.Id == id);
     }
 
-    public static Guid AddUser(UserView userView)
+    public Guid AddUser(UserView userView)
     {
         var user = userView.GetNewUserFromViewModel();
         _users.Add(user);
         return user.Id;
     }
 
-    public static UserView? UpdateUser(Guid id, UserView userView)
+    public UserView? UpdateUser(Guid id, UserView userView)
     {
         var userToUpdateIndex = _users
             .Select(((x, i) => new {user = x, index = i}))
@@ -57,12 +54,12 @@ public static class DbContextHelper
         return _users[userToUpdateIndex.index].UpdateUser(userView);
     }
 
-    public static bool DeleteUser(Guid id)
+    public bool DeleteUser(Guid id)
     {
         return _users.Remove(_users.FirstOrDefault(x => x.Id == id)!);
     }
 
-    public static UserView? UpdateUserProp(Guid id, string propName, string propValue)
+    public UserView? UpdateUserProp(Guid id, string propName, string propValue)
     {
         var userToUpdateIndex = _users
             .Select(((x, i) => new {user = x, index = i}))
